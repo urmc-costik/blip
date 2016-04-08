@@ -20,7 +20,6 @@ Table of contents:
     - [Code organization](#code-organization)
     - [React components](#react-components)
     - [Config object](#config-object)
-    - [Dependencies](#dependencies)
     - [Debugging](#debugging)
     - [Less](#less)
     - [Icons](#icons)
