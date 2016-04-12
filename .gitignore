@@ -24,3 +24,6 @@ config/*
 test/bin
 sauce_connect.log
 selenium-debug.log
+
+# GitBook
+_book/
