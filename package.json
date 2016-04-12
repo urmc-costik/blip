@@ -14,7 +14,9 @@
     "build-config": "node buildconfig",
     "server": "node server",
     "lint": "eslint app test",
-    "install-selenium": "./node_modules/selenium-standalone/bin/selenium-standalone install --version=2.53.0"
+    "install-selenium": "./node_modules/selenium-standalone/bin/selenium-standalone install --version=2.53.0",
+    "build-docs": "./update-gh-pages.sh",
+    "serve-docs": "./node_modules/.bin/gitbook serve"
   },
   "dependencies": {
     "async": "1.5.2",
@@ -64,6 +66,7 @@
     "chromedriver": "2.21.2",
     "eslint": "2.2.0",
     "eslint-plugin-react": "4.2.3",
+    "gitbook-cli": "1.0.1",
     "karma": "0.13.22",
     "karma-chai": "0.1.0",
     "karma-chrome-launcher": "0.2.3",
