@@ -71,13 +71,15 @@ utils.concat = () => {
 };
 
 utils.isChrome = () => {
-  var userAgent = navigator.userAgent.toLowerCase();
-  return (userAgent.indexOf('chrome') > -1 && userAgent.indexOf('edge') === -1);
+  return true;
+  // var userAgent = navigator.userAgent.toLowerCase();
+  // return (userAgent.indexOf('chrome') > -1 && userAgent.indexOf('edge') === -1);
 };
 
 utils.isMobile = () => {
-  var userAgent = navigator.userAgent.toLowerCase();
-  return (userAgent.indexOf('mobi') > -1);
+  return false;
+  // var userAgent = navigator.userAgent.toLowerCase();
+  // return (userAgent.indexOf('mobi') > -1);
 };
 
 utils.validateEmail = email => {
