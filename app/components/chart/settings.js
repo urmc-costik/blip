@@ -22,7 +22,7 @@ import ReactDOM from 'react-dom';
 
 import utils from '../../core/utils';
 
-import * as viz from '@tidepool/viz';
+import * as viz from '@hackingtype1/viz';
 
 const ChartFactory = viz.components.SettingsFactory;
 

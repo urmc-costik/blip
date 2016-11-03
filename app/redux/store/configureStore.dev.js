@@ -24,7 +24,7 @@ import createLogger from 'redux-logger';
 import { browserHistory } from 'react-router';
 import { syncHistory, routeReducer } from 'react-router-redux';
 
-import { vizReducer } from '@tidepool/viz';
+import { vizReducer } from '@hackingtype1/viz';
 
 import DevTools from '../containers/DevTools';
 

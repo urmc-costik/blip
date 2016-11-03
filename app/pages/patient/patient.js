@@ -121,7 +121,7 @@ const Patient = React.createClass({
 
   renderDeleteDialog: function() {
     return (
-      <div>If you are sure you want to delete your account, <a href="mailto:support@tidepool.org?Subject=Delete%20my%20account" target="_blank">send an email</a> to support@tidepool.org and we take care of it for you.</div>
+      <div>If you are sure you want to delete your account, <a href="mailto:support@hackingtype1.org?Subject=Delete%20my%20account" target="_blank">send an email</a> to support@hackingtype1.org and we take care of it for you.</div>
     );
   },
 

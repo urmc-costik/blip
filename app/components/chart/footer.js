@@ -19,7 +19,7 @@ var bows = require('bows');
 var React = require('react');
 var cx = require('classnames');
 
-import * as viz from '@tidepool/viz';
+import * as viz from '@hackingtype1/viz';
 const TwoOptionToggle = viz.components.TwoOptionToggle;
 
 var tideline = {

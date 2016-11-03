@@ -27,7 +27,7 @@ var Footer = require('./footer');
 
 import SMBGTrends from './smbgtrends';
 
-import * as viz from '@tidepool/viz';
+import * as viz from '@hackingtype1/viz';
 const FocusedCBGSliceHTMLLabels = viz.components.FocusedCBGSliceHTMLLabels;
 const FocusedCBGSliceTime = viz.components.FocusedCBGSliceTime;
 const TrendsContainer = viz.containers.TrendsContainer;

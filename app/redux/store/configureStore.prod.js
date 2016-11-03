@@ -20,7 +20,7 @@ import thunkMiddleware from 'redux-thunk';
 import { browserHistory } from 'react-router';
 import { syncHistory, routeReducer } from 'react-router-redux';
 
-import { vizReducer } from '@tidepool/viz';
+import { vizReducer } from '@hackingtype1/viz';
 
 import blipState from '../reducers/initialState';
 import reducers from '../reducers';
